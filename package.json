@@ -1,0 +1,20 @@
+{
+  "name": "love",
+  "version": "1.0.0",
+  "description": "A minimalist romantic 3D anniversary game.",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "heic-convert": "^2.1.0",
+    "three": "^0.185.1",
+    "vite": "^8.1.3"
+  }
+}

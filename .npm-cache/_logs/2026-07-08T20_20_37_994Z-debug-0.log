@@ -1,0 +1,123 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.9.0
+2 info using node@v24.14.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\tcik8\OneDrive\Documents\love\.npmrc
+5 silly config load:file:C:\Users\tcik8\.npmrc
+6 silly config load:file:C:\Users\tcik8\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install heic-convert
+8 verbose argv "install" "heic-convert" "--cache" ".\\.npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\tcik8\OneDrive\Documents\love\.npm-cache\_logs\2026-07-08T20_20_37_994Z-
+10 verbose logfile C:\Users\tcik8\OneDrive\Documents\love\.npm-cache\_logs\2026-07-08T20_20_37_994Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest heic-convert@*
+15 silly packumentCache full:https://registry.npmjs.org/heic-convert cache-miss
+16 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+17 http fetch GET 200 https://registry.npmjs.org/heic-convert 355ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/heic-convert set size:undefined disposed:false
+19 silly placeDep ROOT heic-convert@2.1.0 OK for: love@1.0.0 want: *
+20 silly fetch manifest heic-decode@^2.0.0
+21 silly packumentCache full:https://registry.npmjs.org/heic-decode cache-miss
+22 silly fetch manifest jpeg-js@^0.4.4
+23 silly packumentCache full:https://registry.npmjs.org/jpeg-js cache-miss
+24 silly fetch manifest pngjs@^6.0.0
+25 silly packumentCache full:https://registry.npmjs.org/pngjs cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/jpeg-js 146ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/jpeg-js set size:undefined disposed:false
+28 http fetch GET 200 https://registry.npmjs.org/pngjs 147ms (cache miss)
+29 silly packumentCache full:https://registry.npmjs.org/pngjs set size:undefined disposed:false
+30 http fetch GET 200 https://registry.npmjs.org/heic-decode 234ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/heic-decode set size:undefined disposed:false
+32 silly placeDep ROOT heic-decode@2.1.0 OK for: heic-convert@2.1.0 want: ^2.0.0
+33 silly placeDep ROOT jpeg-js@0.4.4 OK for: heic-convert@2.1.0 want: ^0.4.4
+34 silly placeDep ROOT pngjs@6.0.0 OK for: heic-convert@2.1.0 want: ^6.0.0
+35 silly fetch manifest libheif-js@^1.19.8
+36 silly packumentCache full:https://registry.npmjs.org/libheif-js cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/libheif-js 312ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/libheif-js set size:undefined disposed:false
+39 silly placeDep ROOT libheif-js@1.19.8 OK for: heic-decode@2.1.0 want: ^1.19.8
+40 silly reify moves {}
+41 silly audit bulk request {
+41 silly audit   '@emnapi/core': [ '1.11.1' ],
+41 silly audit   '@emnapi/runtime': [ '1.11.1' ],
+41 silly audit   '@emnapi/wasi-threads': [ '1.2.2' ],
+41 silly audit   '@napi-rs/wasm-runtime': [ '1.1.6' ],
+41 silly audit   '@oxc-project/types': [ '0.139.0' ],
+41 silly audit   '@rolldown/binding-android-arm64': [ '1.1.5' ],
+41 silly audit   '@rolldown/binding-darwin-arm64': [ '1.1.5' ],
+41 silly audit   '@rolldown/binding-darwin-x64': [ '1.1.5' ],
+41 silly audit   '@rolldown/binding-freebsd-x64': [ '1.1.5' ],
+41 silly audit   '@rolldown/binding-linux-arm-gnueabihf': [ '1.1.5' ],
+41 silly audit   '@rolldown/binding-linux-arm64-gnu': [ '1.1.5' ],
+41 silly audit   '@rolldown/binding-linux-arm64-musl': [ '1.1.5' ],
+41 silly audit   '@rolldown/binding-linux-ppc64-gnu': [ '1.1.5' ],
+41 silly audit   '@rolldown/binding-linux-s390x-gnu': [ '1.1.5' ],
+41 silly audit   '@rolldown/binding-linux-x64-gnu': [ '1.1.5' ],
+41 silly audit   '@rolldown/binding-linux-x64-musl': [ '1.1.5' ],
+41 silly audit   '@rolldown/binding-openharmony-arm64': [ '1.1.5' ],
+41 silly audit   '@rolldown/binding-wasm32-wasi': [ '1.1.5' ],
+41 silly audit   '@rolldown/binding-win32-arm64-msvc': [ '1.1.5' ],
+41 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.1.5' ],
+41 silly audit   '@rolldown/pluginutils': [ '1.0.1' ],
+41 silly audit   '@tybys/wasm-util': [ '0.10.3' ],
+41 silly audit   'detect-libc': [ '2.1.2' ],
+41 silly audit   fdir: [ '6.5.0' ],
+41 silly audit   fsevents: [ '2.3.3' ],
+41 silly audit   lightningcss: [ '1.32.0' ],
+41 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+41 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+41 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+41 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+41 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+41 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+41 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+41 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+41 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+41 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+41 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+41 silly audit   nanoid: [ '3.3.15' ],
+41 silly audit   picocolors: [ '1.1.1' ],
+41 silly audit   picomatch: [ '4.0.5' ],
+41 silly audit   postcss: [ '8.5.16' ],
+41 silly audit   rolldown: [ '1.1.5' ],
+41 silly audit   'source-map-js': [ '1.2.1' ],
+41 silly audit   three: [ '0.185.1' ],
+41 silly audit   tinyglobby: [ '0.2.17' ],
+41 silly audit   tslib: [ '2.8.1' ],
+41 silly audit   vite: [ '8.1.3' ],
+41 silly audit   'heic-convert': [ '2.1.0' ],
+41 silly audit   'heic-decode': [ '2.1.0' ],
+41 silly audit   'jpeg-js': [ '0.4.4' ],
+41 silly audit   pngjs: [ '6.0.0' ],
+41 silly audit   'libheif-js': [ '1.19.8' ]
+41 silly audit }
+42 http cache pngjs@https://registry.npmjs.org/pngjs/-/pngjs-6.0.0.tgz 0ms (cache hit)
+43 http cache libheif-js@https://registry.npmjs.org/libheif-js/-/libheif-js-1.19.8.tgz 0ms (cache hit)
+44 http cache jpeg-js@https://registry.npmjs.org/jpeg-js/-/jpeg-js-0.4.4.tgz 0ms (cache hit)
+45 silly tarball no local data for pngjs@https://registry.npmjs.org/pngjs/-/pngjs-6.0.0.tgz. Extracting by manifest.
+46 http cache heic-decode@https://registry.npmjs.org/heic-decode/-/heic-decode-2.1.0.tgz 0ms (cache hit)
+47 silly tarball no local data for libheif-js@https://registry.npmjs.org/libheif-js/-/libheif-js-1.19.8.tgz. Extracting by manifest.
+48 http cache heic-convert@https://registry.npmjs.org/heic-convert/-/heic-convert-2.1.0.tgz 0ms (cache hit)
+49 silly tarball no local data for jpeg-js@https://registry.npmjs.org/jpeg-js/-/jpeg-js-0.4.4.tgz. Extracting by manifest.
+50 silly tarball no local data for heic-decode@https://registry.npmjs.org/heic-decode/-/heic-decode-2.1.0.tgz. Extracting by manifest.
+51 silly tarball no local data for heic-convert@https://registry.npmjs.org/heic-convert/-/heic-convert-2.1.0.tgz. Extracting by manifest.
+52 http fetch GET 200 https://registry.npmjs.org/heic-decode/-/heic-decode-2.1.0.tgz 170ms (cache miss)
+53 http fetch GET 200 https://registry.npmjs.org/heic-convert/-/heic-convert-2.1.0.tgz 174ms (cache miss)
+54 http fetch GET 200 https://registry.npmjs.org/jpeg-js/-/jpeg-js-0.4.4.tgz 191ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/pngjs/-/pngjs-6.0.0.tgz 199ms (cache miss)
+56 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 211ms
+57 silly audit report {}
+58 http fetch GET 200 https://registry.npmjs.org/libheif-js/-/libheif-js-1.19.8.tgz 412ms (cache miss)
+59 silly ADD node_modules/libheif-js
+60 silly ADD node_modules/pngjs
+61 silly ADD node_modules/jpeg-js
+62 silly ADD node_modules/heic-decode
+63 silly ADD node_modules/heic-convert
+64 verbose cwd C:\Users\tcik8\OneDrive\Documents\love
+65 verbose os Windows_NT 10.0.26200
+66 verbose node v24.14.0
+67 verbose npm  v11.9.0
+68 verbose exit 0
+69 info ok

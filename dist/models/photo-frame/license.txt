@@ -1,0 +1,11 @@
+Model Information:
+* title:	3D Architecture | Photo frame
+* source:	https://sketchfab.com/3d-models/3d-architecture-photo-frame-33bedcb0e2064a3a97c19658e254af74
+* author:	Dylan Dreyer Varsics (https://sketchfab.com/d.varsics)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "3D Architecture | Photo frame" (https://sketchfab.com/3d-models/3d-architecture-photo-frame-33bedcb0e2064a3a97c19658e254af74) by Dylan Dreyer Varsics (https://sketchfab.com/d.varsics) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
